@@ -1,10 +1,10 @@
-import fake_mach as fm
-import true_math as tm
+from fake_mach import divide as fd
+from true_math import divide as td
 
-result1 = fm.divide(69, 3)
-result2 = fm.divide(3, 0)
-result3 = tm.divide(49, 7)
-result4 = tm.divide(15, 0)
+result1 = fd(69, 3)
+result2 = fd(3, 0)
+result3 = td(49, 7)
+result4 = td(15, 0)
 
 print(result1)
 print(result2)
