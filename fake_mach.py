@@ -1,5 +1,5 @@
 def divide(first, second):
     if second == 0:
-        print('Ошибка')
+        return str('Ошибка')
     else:
         return first / second
